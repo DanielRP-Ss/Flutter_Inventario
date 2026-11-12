@@ -150,3 +150,11 @@ Casos de validación para la demo:
 | Integrante 2 | Entorno y desarrollo base | Instalación, estructura del proyecto, navegación, formulario validado, README, repositorio |
 | Integrante 3 | Datos y servicios | Listado dinámico, consumo de API REST, manejo de estado, demo en vivo |
 
+## 7. Limitaciones conocidas
+
+- Datos **en memoria**: al cerrar la app se pierden los agregados (sin persistencia local).
+- Sin borrar/editar items ni autenticación.
+- La integración con API REST (Django) está en desarrollo por el equipo; el modelo `Item` ya está desacoplado para mapear el JSON del endpoint.
+- Compilación para **iOS** requiere macOS con Xcode (no disponible en el equipo de desarrollo).
+- Compilación para **Windows desktop** requiere Visual Studio con workload C++ (no instalado, no necesario para la demo).
+
